@@ -336,7 +336,7 @@ namespace Org.OpenAPITools.Test
         public void CommonAppVariablesDELETETest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //instance.CommonAppVariablesDELETE(body);
             
         }
@@ -360,9 +360,9 @@ namespace Org.OpenAPITools.Test
         public void CommonAppVariablesPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.CommonAppVariablesPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -375,7 +375,7 @@ namespace Org.OpenAPITools.Test
             //string path = null;
             //string action = null;
             //var response = instance.CommonMediaPathGET(path, action);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -2283,7 +2283,7 @@ namespace Org.OpenAPITools.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             //var response = instance.DocumentStatsGET();
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2319,7 +2319,7 @@ namespace Org.OpenAPITools.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             //var response = instance.DumpDocumentConfigGET();
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -2329,7 +2329,7 @@ namespace Org.OpenAPITools.Test
         public void DumpDocumentConfigPUTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.DumpDocumentConfigPUT(body);
             //Assert.IsInstanceOf(typeof(System.IO.Stream), response, "response is System.IO.Stream");
         }
@@ -2354,7 +2354,7 @@ namespace Org.OpenAPITools.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             //var response = instance.DumpDumpGET();
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -2364,7 +2364,7 @@ namespace Org.OpenAPITools.Test
         public void DumpDumpPUTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.DumpDumpPUT(body);
             //Assert.IsInstanceOf(typeof(System.IO.Stream), response, "response is System.IO.Stream");
         }
@@ -2377,7 +2377,7 @@ namespace Org.OpenAPITools.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             //var response = instance.DumpFieldValuesGET();
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -2387,7 +2387,7 @@ namespace Org.OpenAPITools.Test
         public void DumpFieldValuesPUTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.DumpFieldValuesPUT(body);
             //Assert.IsInstanceOf(typeof(System.IO.Stream), response, "response is System.IO.Stream");
         }
@@ -2401,7 +2401,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //InlineObject101 inlineObject101 = null;
             //var response = instance.DumpLoadFixturePOST(inlineObject101);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -2425,7 +2425,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractAmountUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2449,7 +2449,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractCitationUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2473,7 +2473,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractCopyrightUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2497,7 +2497,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractCourtUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2521,7 +2521,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractCurrencyUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2545,7 +2545,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractDateDurationUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2603,7 +2603,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractDateUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2627,7 +2627,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractDefinitionUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2651,7 +2651,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractDistanceUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2675,7 +2675,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractGeoAliasUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2738,7 +2738,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractGeoEntityUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2799,7 +2799,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractPartyUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2823,7 +2823,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractPercentUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2847,7 +2847,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractRatioUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2871,7 +2871,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractRegulationUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2895,7 +2895,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractTermUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2919,7 +2919,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractTrademarkUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2979,7 +2979,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //Dictionary<string, string> jqFilters = null;
             //var response = instance.ExtractUrlUsageTopGET(jqFilters);
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -2991,7 +2991,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //InlineObject102 inlineObject102 = null;
             //var response = instance.LoggingLogMessagePOST(inlineObject102);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3004,7 +3004,7 @@ namespace Org.OpenAPITools.Test
             //string path = null;
             //string action = null;
             //var response = instance.MediaDataPathGET(path, action);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3067,7 +3067,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject76 inlineObject76 = null;
             //var response = instance.ProjectProjectsIdAssignAnnotationsPOST(id, inlineObject76);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3080,7 +3080,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject77 inlineObject77 = null;
             //var response = instance.ProjectProjectsIdAssignDocumentsPOST(id, inlineObject77);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3106,7 +3106,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject78 inlineObject78 = null;
             //var response = instance.ProjectProjectsIdCleanupPOST(id, inlineObject78);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3119,7 +3119,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject88 inlineObject88 = null;
             //var response = instance.ProjectProjectsIdClusterPOST(id, inlineObject88);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3131,7 +3131,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //string id = null;
             //var response = instance.ProjectProjectsIdClusteringStatusGET(id);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3157,7 +3157,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject79 inlineObject79 = null;
             //var response = instance.ProjectProjectsIdDetectFieldValuesPOST(id, inlineObject79);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3183,7 +3183,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject80 inlineObject80 = null;
             //var response = instance.ProjectProjectsIdMakeSearchablePdfPOST(id, inlineObject80);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3196,7 +3196,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject81 inlineObject81 = null;
             //var response = instance.ProjectProjectsIdMarkDeletePOST(id, inlineObject81);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3250,7 +3250,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject82 inlineObject82 = null;
             //var response = instance.ProjectProjectsIdSendClustersToProjectPOST(id, inlineObject82);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3263,7 +3263,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject83 inlineObject83 = null;
             //var response = instance.ProjectProjectsIdSetAnnotationStatusPOST(id, inlineObject83);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3276,7 +3276,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject84 inlineObject84 = null;
             //var response = instance.ProjectProjectsIdSetStatusPOST(id, inlineObject84);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3289,7 +3289,7 @@ namespace Org.OpenAPITools.Test
             //string id = null;
             //InlineObject85 inlineObject85 = null;
             //var response = instance.ProjectProjectsIdUnmarkDeletePOST(id, inlineObject85);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3301,7 +3301,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //InlineObject74 inlineObject74 = null;
             //var response = instance.ProjectProjectsMakeSearchablePdfPOST(inlineObject74);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3350,7 +3350,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //InlineObject75 inlineObject75 = null;
             //var response = instance.ProjectProjectsSelectProjectsPOST(inlineObject75);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3493,7 +3493,7 @@ namespace Org.OpenAPITools.Test
             //string uid = null;
             //InlineObject87 inlineObject87 = null;
             //var response = instance.ProjectUploadSessionUidBatchUploadPOST_0(uid, inlineObject87);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3532,7 +3532,7 @@ namespace Org.OpenAPITools.Test
             //string uid = null;
             //InlineObject107 inlineObject107 = null;
             //var response = instance.ProjectUploadSessionUidDeleteFileDELETE(uid, inlineObject107);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3550,7 +3550,7 @@ namespace Org.OpenAPITools.Test
             //bool? force2 = null;
             //System.IO.Stream body = null;
             //var response = instance.ProjectUploadSessionUidFilesPOST(uid, contentLength, fileName, force, directoryPath, force2, body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3594,7 +3594,7 @@ namespace Org.OpenAPITools.Test
             //bool? directoryPath = null;
             //System.IO.Stream body = null;
             //var response = instance.ProjectUploadSessionUidUploadPOST(uid, fileName, fileEncoding, force, reviewFile, directoryPath, body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3642,9 +3642,9 @@ namespace Org.OpenAPITools.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             //string documentTypeCode = null;
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.RawdbDocumentsDocumentTypeCodePOST(documentTypeCode, body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3656,7 +3656,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //string projectId = null;
             //var response = instance.RawdbProjectStatsProjectIdGET(projectId);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3667,7 +3667,7 @@ namespace Org.OpenAPITools.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             //var response = instance.RawdbSocialAccountsGET();
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -3690,7 +3690,7 @@ namespace Org.OpenAPITools.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             //var response = instance.RestAuthLogoutGET();
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -3700,9 +3700,9 @@ namespace Org.OpenAPITools.Test
         public void RestAuthLogoutPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.RestAuthLogoutPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3818,9 +3818,9 @@ namespace Org.OpenAPITools.Test
         public void SimilarityPartySimilarityPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.SimilarityPartySimilarityPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3841,9 +3841,9 @@ namespace Org.OpenAPITools.Test
         public void SimilaritySimilarityByFeaturesPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.SimilaritySimilarityByFeaturesPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3864,9 +3864,9 @@ namespace Org.OpenAPITools.Test
         public void SimilaritySimilarityPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.SimilaritySimilarityPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3876,9 +3876,9 @@ namespace Org.OpenAPITools.Test
         public void TaskCleanTasksPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.TaskCleanTasksPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3888,9 +3888,9 @@ namespace Org.OpenAPITools.Test
         public void TaskLoadDictionariesPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.TaskLoadDictionariesPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3911,9 +3911,9 @@ namespace Org.OpenAPITools.Test
         public void TaskLoadDocumentsPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.TaskLoadDocumentsPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3934,9 +3934,9 @@ namespace Org.OpenAPITools.Test
         public void TaskLocatePOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.TaskLocatePOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3946,9 +3946,9 @@ namespace Org.OpenAPITools.Test
         public void TaskPurgeTaskPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.TaskPurgeTaskPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3959,7 +3959,7 @@ namespace Org.OpenAPITools.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             //var response = instance.TaskRecallTaskGET();
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -3969,9 +3969,9 @@ namespace Org.OpenAPITools.Test
         public void TaskRecallTaskPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.TaskRecallTaskPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -3982,7 +3982,7 @@ namespace Org.OpenAPITools.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             //string taskId = null;
-            //ModelInt recordsLimit = null;
+            //int recordsLimit = null;
             //var response = instance.TaskTaskLogGET(taskId, recordsLimit);
             //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
@@ -4032,7 +4032,7 @@ namespace Org.OpenAPITools.Test
         {
             // TODO uncomment below to test the method and replace null with proper value
             //var response = instance.TaskUpdateElasticIndexGET();
-            //Assert.IsInstanceOf(typeof(List<AnyType>), response, "response is List<AnyType>");
+            //Assert.IsInstanceOf(typeof(List<Object>), response, "response is List<Object>");
         }
         
         /// <summary>
@@ -4042,9 +4042,9 @@ namespace Org.OpenAPITools.Test
         public void TaskUpdateElasticIndexPOSTTest()
         {
             // TODO uncomment below to test the method and replace null with proper value
-            //AnyType body = null;
+            //Object body = null;
             //var response = instance.TaskUpdateElasticIndexPOST(body);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
         /// <summary>
@@ -4245,7 +4245,7 @@ namespace Org.OpenAPITools.Test
             // TODO uncomment below to test the method and replace null with proper value
             //string var = null;
             //var response = instance.VarGET(var);
-            //Assert.IsInstanceOf(typeof(AnyType), response, "response is AnyType");
+            //Assert.IsInstanceOf(typeof(Object), response, "response is Object");
         }
         
     }

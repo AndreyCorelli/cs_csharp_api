@@ -40,7 +40,7 @@ namespace Org.OpenAPITools.Model
         /// </summary>
         /// <param name="queryInfo">queryInfo (required).</param>
         /// <param name="records">records (required).</param>
-        public InlineObject102(Object queryInfo = default(Object), List<AnyType> records = default(List<AnyType>))
+        public InlineObject102(Object queryInfo = default(Object), List<Object> records = default(List<Object>))
         {
             // to ensure "queryInfo" is required (not null)
             if (queryInfo == null)
@@ -74,7 +74,7 @@ namespace Org.OpenAPITools.Model
         /// Gets or Sets Records
         /// </summary>
         [DataMember(Name="records", EmitDefaultValue=true)]
-        public List<AnyType> Records { get; set; }
+        public List<Object> Records { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
