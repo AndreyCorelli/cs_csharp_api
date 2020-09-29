@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 using Org.OpenAPITools.Api;
@@ -17,7 +13,7 @@ namespace Org.OpenAPITools.UnitTest
         public void TestConnection()
         {
             var conf = new Client.Configuration(
-                new Dictionary<string, string>(), 
+                new Dictionary<string, string>(),
                 new Dictionary<string, string>(),
                 new Dictionary<string, string>(),
                 "https://dev.contraxsuite.com");
@@ -36,17 +32,18 @@ namespace Org.OpenAPITools.UnitTest
                 "https://dev.contraxsuite.com");
             var proxy = new DefaultApi(conf);
             var usrData = new InlineObject70("Administrator", // user
-                                             "developers-dev@lexpredict.com", // email
-                                             "Administrator"); // password
+                "developers-dev@lexpredict.com", // email
+                "Administrator"); // password
             var resp = proxy.RestAuthLoginPOST(usrData) as JObject;
             var authResponse = resp.ToObject<Dictionary<string, object>>();
             Assert.IsNotNull(resp);
-            proxy.Configuration.AccessToken = "Token " + (string)authResponse["key"];
-            //proxy.Configuration.AccessToken = "Token 0595158830857aafd0b1ff8f10fab6e498c37259";
-            proxy.Configuration.Username = "Administrator";            
+            var apiKey = (string)authResponse["key"];
+            var apiToken = $"Token {apiKey}";
+            //proxy.Configuration.AccessToken = apiToken;
+            proxy.Configuration.ApiKey["Authorization"] = apiToken;
 
-            var usrDetail = proxy.RestAuthUserGET();
-            Assert.IsNotNull(usrDetail);
+            var projects = proxy.ProjectProjectsRecentGET();
+            Assert.IsNotNull(projects);
         }
     }
 }
